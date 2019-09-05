@@ -1,0 +1,13 @@
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1192px) {
+  .container {
+    display: inline-block;
+    flex-direction: row;
+  }
+}

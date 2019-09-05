@@ -1,0 +1,32 @@
+.button {
+  background-color: #f24537;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 30px;
+  outline: none;
+}
+
+.button:hover {
+  background: linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+  background-color: #c62d1f;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    position: static;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
